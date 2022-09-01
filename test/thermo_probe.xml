@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<thermo_probe>
+	<gasphase>CH4 CO CO2 H2 H2O O2 N2</gasphase>
+	<massfractions>CH4=0.2,H2O=0.4,N2=0.4</massfractions>
+	<T>298.15</T>
+	<p>1e5</p>
+</thermo_probe>

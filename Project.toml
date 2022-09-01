@@ -3,8 +3,17 @@ uuid = "0468d222-5c00-46b0-98db-2efb25d65330"
 authors = ["Vinod Janardhanan"]
 version = "0.1.0"
 
+[deps]
+IdealGas = "7aa10a8e-8b87-4952-8d6b-aae44b8b139e"
+LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+RxnHelperUtils = "58b8660e-aa37-4837-a287-8893ee0015f8"
+
 [compat]
 julia = "1.7.3"
+IdealGas = "0.1.1"
+RxnHelperUtils = "0.1.0"
+LightXML = "0.9.0"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

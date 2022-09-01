@@ -25,7 +25,7 @@ function thermoprobe(input_file::AbstractString, lib_dir::AbstractString)
     local thermo_obj::IdealGas.SpeciesThermoObj
 
     gas_species = get_collection_from_xml(xmlroot,"gasphase")
-    thermo_file = lib_dir*"therm.dat"
+    thermo_file = get_path(lib_dir, "therm.dat") 
     thermo_obj = IdealGas.create_thermo(gas_species, thermo_file)          
     
 

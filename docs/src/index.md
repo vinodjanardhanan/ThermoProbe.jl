@@ -51,7 +51,7 @@ The meaning of different XML tags is explained below.
 - <p> : Pressure in Pa
 
 ## Input file download
-The xml input file may be downloaded from [here](https://github.com/vinodjanardhanan/RSimExamples/tree/main/thermo_probe). The *therm.dat* file may be downloaded from a number of online resources. You may also download the same from [here] (https://github.com/vinodjanardhanan/RSimExamples/tree/main/lib).
+The xml input file and the *lib* directory containig other required input files may be downloaded from [here](https://github.com/vinodjanardhanan/ThermoProbe.jl/tree/main/test).
 
 ## Output
 The code does not generate any file output.  An example of terminal output that thermoprobe generates is shown below.

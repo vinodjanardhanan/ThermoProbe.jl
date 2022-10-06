@@ -11,7 +11,7 @@ RxnHelperUtils = "58b8660e-aa37-4837-a287-8893ee0015f8"
 
 [compat]
 julia = "1.8.0"
-IdealGas = "0.1.1"
+IdealGas = "0.1.2"
 RxnHelperUtils = "0.1.1"
 LightXML = "0.9.0"
 
